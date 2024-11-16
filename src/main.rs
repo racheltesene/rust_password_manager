@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-use std::fs::{self, OpenOptions};
+use std::fs::OpenOptions;
 use std::io::{self, Write, Read};
 use std::path::Path;
 
