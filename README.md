@@ -1,10 +1,10 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This Password Manager is a command-line application written in Rust that securely stores, retrieves, and manages passwords for various services. It demonstrates key Rust programming concepts such as variable mutability, ownership and borrowing, conditionals, loops, and error handling. Additionally, the software incorporates a HashMap for efficient data storage and retrieval, and it includes file I/O functionality to save and load data between program sessions.
 
-{Provide a description of the software that you wrote to demonstrate the Rust language.}
+## Purpose
 
-{Describe your purpose for writing this software.}
+The purpose of writing this software is to deepen my understanding of the Rust programming language, particularly its unique concepts like ownership, borrowing, and memory safety. By building this Password Manager, I aimed to create a functional, real-world application while learning Rust's syntax, standard library, and error-handling capabilities.
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
@@ -12,21 +12,28 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+- Code Editor: Visual Studio Code
 
-{Describe the programming language that you used and any libraries.}
+- Compiler & Build Tool: Rust's Cargo
+
+The program uses the following dependencies:
+
+- serde: For serializing and deserializing data.
+
+- serde_json: For working with JSON format.
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Rust Tutorial—TutorialsPoint](https://www.tutorialspoint.com/rust/index.htm)
+- [Rust - Official site](https://www.rust-lang.org)
 
+- [Rust Wikipedia](https://en.wikipedia.org/wiki/Rust_(programming_language))
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+- Improve Security: Add encryption for password storage to enhance security. 
 
-- Item 1
-- Item 2
-- Item 3
+- Search Functionality: Implement a feature to search for passwords by partial service name.
+
+- User Authentication: Add a login mechanism to protect access to the Password Manager.
