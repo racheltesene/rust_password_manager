@@ -6,9 +6,8 @@ This Password Manager is a command-line application written in Rust that securel
 
 The purpose of writing this software is to deepen my understanding of the Rust programming language, particularly its unique concepts like ownership, borrowing, and memory safety. By building this Password Manager, I aimed to create a functional, real-world application while learning Rust's syntax, standard library, and error-handling capabilities.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/fZZLZPMVE_Q)
 
 # Development Environment
 
